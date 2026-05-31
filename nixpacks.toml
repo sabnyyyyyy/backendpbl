@@ -1,2 +1,5 @@
 [phases.setup]
-nixPkgs = ["php84"]
+nixPkgs = ["php84", "composer"]
+
+[variables]
+PHP_VERSION = "8.4"
